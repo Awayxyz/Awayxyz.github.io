@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 400px;
+    height: 440px;
+    margin: 100px auto 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+
+    background: rgb(94,128,127);
+    background: linear-gradient(354deg, rgba(94,128,127,1) 0%, rgba(222,229,229,1) 95%);
+}
+
+.flexbox {
+    height: 320px;
+    width: 380px;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 10px;
+}
+
+#equals {
+    flex-grow: 1;
+    background-color: #5ABCB9 !important;
+}
+
+.text-output {
+    border: 1px solid black;
+    width: 380px;
+    height: 60px;
+    text-align: right;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#output {
+    padding-right: 10px;
+    font-size: 1.4em !important;
+}
+
+.container input {
+    width: 80px;
+    height: 50px;
+
+    background-color: #F4D35E;
+    transition: background-color 0.5s;
+}
+
+.container input:hover {
+    background-color: #EE964B;
+}
+
+.operations {
+    background-color: #FFF4E4 !important;
+}
+
+.operations:hover {
+    background-color: #FAFAC6 !important;
+}
+
+#equals:hover {
+    background-color: #2274A5 !important;
+}
+
